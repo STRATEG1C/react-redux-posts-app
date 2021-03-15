@@ -35,7 +35,7 @@ class Login extends Component {
         [field]: value
       },
       formErrors: {
-        ...prevState.func,
+        ...prevState.formErrors,
         [field]: false
       }
     }))
